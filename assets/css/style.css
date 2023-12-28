@@ -645,12 +645,12 @@ section {
   overflow-x: scroll !important;
   white-space: nowrap !important;
   /* hide scroll bar in fire fox */
-  /* scrollbar-width: none; */
+  scrollbar-width: none;
 }
 
 /* hide scroll bar in other browsers */
 ::-webkit-scrollbar {
-  /* display: none; */
+  display: none;
 }
 
 .menu #menu-flters li {
